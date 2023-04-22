@@ -1,3 +1,7 @@
+/*
+Time complexity: O(N)
+Auxiliary Space: θ(N)
+*/
 class Solution {
     public int largestRectangleArea(int[] heights) {
         Stack<Integer> stack = new Stack<>();
